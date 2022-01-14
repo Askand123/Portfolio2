@@ -1,0 +1,18 @@
+.about .left img {
+  height: 50rem;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+.about .container .right {
+  margin-left: 5rem;
+}
+.about .container .right h1 {
+  font-size: 5rem;
+}
+.about .container .right h3 {
+  font-size: 2rem;
+}

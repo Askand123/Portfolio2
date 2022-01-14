@@ -1,0 +1,84 @@
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 950px) {
+  #menu-btn {
+    display: inline-block;
+  }
+  .header {
+    padding: 2rem;
+  }
+  .header .Navbar {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background-color: #44dbc3;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  .Navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .Navbar ul li {
+    width: 90%;
+    position: relative;
+    text-align: center;
+  }
+  .Navbar li a:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  .about .container {
+    flex-direction: column;
+  }
+  .experience .container .row1,
+  .experience .container .row2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer iframe {
+    width: 50rem;
+  }
+}
+@media (max-width: 750px) {
+  .hero {
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero .left {
+    margin-right: 1rem;
+  }
+  .footer iframe {
+    width: 10rem;
+  }
+}
+@media (max-width: 650px) {
+  .contact .contact-form .contact-form-container {
+    box-shadow: 0px 0px 0px;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .hero .left {
+    margin-right: 0rem;
+  }
+  .footer iframe {
+    width: 20rem;
+  }
+}
+@media (max-width: 380px) {
+  html {
+    font-size: 45%;
+  }
+  .hero .right {
+    margin: 1rem;
+  }
+}

@@ -1,0 +1,35 @@
+.experience .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.experience .box-img {
+  height: 10rem;
+}
+.experience .container .row1 {
+  display: flex;
+}
+.experience .container .row2 {
+  display: flex;
+}
+.experience .box {
+  padding: 5rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5rem;
+  height: 15rem;
+  width: 20rem;
+  transition: 0.8s all;
+  overflow-wrap: hidden;
+}
+.experience .box:hover {
+  transform: scale(1.2);
+}
+.experience .container .box-h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: #f2f2f2;
+}
